@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  kiwi_app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+
+  test:
+    build: .
+    command: ["pytest", "--disable-warnings"]
+    volumes:
+      - .:/app
