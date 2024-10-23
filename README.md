@@ -38,11 +38,17 @@ docker-compose build
 ```
 
 ### 3. Run the container
-After the image is built, you can run the application using Docker Compose:
+After the image is built, you can run the application (without tests) using Docker Compose:
 
 ```bash
 docker-compose up
 ```
+
+If you want to run also the test container when running the application, then use:
+```bash
+docker-compose --profile test up
+```
+
 
 The application will be available at http://localhost:8000.
 
@@ -64,4 +70,9 @@ Use the following command to run the tests inside the Docker container:
 
 ```bash
 docker-compose run test
+```
+
+Alternatively, you can run the entire container with tests using the command:
+```bash
+docker-compose --profile test up
 ```

@@ -13,3 +13,5 @@ services:
     command: ["pytest", "--disable-warnings"]
     volumes:
       - .:/app
+    profiles:
+      - test
