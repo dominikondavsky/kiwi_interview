@@ -13,7 +13,13 @@ Make sure you have the following installed on your system:
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Project Structure
-. ├── Dockerfile ├── docker-compose.yml ├── main.py ├── test_main.py ├── requirements.txt └── README.md
+.  
+├── Dockerfile  
+├── docker-compose.yml  
+├── main.py  
+├── test_main.py  
+├── requirements.txt  
+└── README.md
 
 ## Getting Started
 
