@@ -10,7 +10,7 @@ services:
 
   test:
     build: .
-    command: ["pytest", "--disable-warnings"]
+    command: sh -c "pip install requests && pytest"
     volumes:
       - .:/app
     profiles:
