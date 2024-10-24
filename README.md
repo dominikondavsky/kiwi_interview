@@ -14,12 +14,14 @@ Make sure you have the following installed on your system:
 
 ## Project Structure
 .  
-├── Dockerfile  
 ├── docker-compose.yml  
+├── Dockerfile  
 ├── main.py  
-├── test_main.py  
+├── models.py  
+├── README.md
 ├── requirements.txt  
-└── README.md
+├── services.py
+└── test_main.py  
 
 ## Getting Started
 
