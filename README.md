@@ -18,9 +18,9 @@ Make sure you have the following installed on your system:
 ├── Dockerfile  
 ├── main.py  
 ├── models.py  
-├── README.md
+├── README.md  
 ├── requirements.txt  
-├── services.py
+├── services.py  
 └── test_main.py  
 
 ## Getting Started
